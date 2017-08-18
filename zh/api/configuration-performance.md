@@ -36,7 +36,7 @@ module.exports = {
 
 In production, nuxt.js uses the [prefetch](https://www.w3.org/TR/resource-hints/#dfn-prefetch) strategy to pre-fetch the pages bundle that will be required when navigating to the next page. When the user will click on a link, nuxt.js will already have pre-fetched the page and the navigation will feel instant while keeping the code splitted.
 
-在生产模式下，Nuxt.js 使用浏览器的[预加载]((https://www.w3.org/TR/resource-hints/#dfn-prefetch))策略来预加载目标页面的脚本资源。所以当用户点击某个链接时，会有一种秒开的感觉。预加载策略使得 Nuxt.js 既可以保持代码分离又能保证页面访问体验。
+在生产模式下，Nuxt.js 使用浏览器的[预加载](https://www.w3.org/TR/resource-hints/#dfn-prefetch)策略来预加载目标页面的脚本资源。所以当用户点击某个链接时，会有一种秒开的感觉。预加载策略使得 Nuxt.js 既可以保持代码分离又能保证页面访问体验。
 
 `prefetch` 特性示例 (请查看当前打开页面的 `<head>` 标签)：
 ```html
